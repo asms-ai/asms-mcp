@@ -29,6 +29,7 @@ Full step-by-step pages, including a prompt your agent can follow on its own, ar
 | [Windsurf](https://asms.ai/agents/windsurf) | `serverUrl` entry in Cascade's `mcp_config.json` |
 | [Gemini CLI](https://asms.ai/agents/gemini-cli) | `gemini mcp add --transport http asms https://asms.ai/mcp` |
 | [opencode](https://asms.ai/agents/opencode) | `remote` entry in `opencode.json` |
+| Cline | `url` + `"type": "streamableHttp"` entry in `cline_mcp_settings.json` ([llms-install.md](llms-install.md)) |
 | [Grok](https://asms.ai/agents/grok) | grok.com Connectors → Custom, or the xAI API `mcp` tool |
 | [OpenAI API](https://asms.ai/agents/openai-api) | Responses API `{"type": "mcp", "server_url": "https://asms.ai/mcp"}` |
 
